@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>About The Project</title>
+
+			<!-- Custom styles for this template go here -->
+				<link rel="stylesheet" href="css/about_styles.css">
+
+			<!--[if lt IE 9]>
+			<script src="dist/html5shiv.js"></script>
+			<![endif]-->			
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1>IPFS Distributed Storage</h1>
+				<h3>A project report for ECE816</h3>
+				<h3>Jayant Benjamin, A59920205</h3>
+			</div><!-- end header-->
+			<div class="image">
+				<img src="img/profile.jpg">	
+			</div><!-- end image-->
+			<div class="intro column">
+				<h2>About the project</h2>
+				<p>
+					This is a website hosted on IPFS.
+
+				</p>
+				<p>
+					The following are the pages on the IPFS
+
+
+				</p>
+			</div><!-- end intro-->
+			<div class="skills column">
+				<h3>Tech Stack</h3>
+				<ul id="skill-list">
+					<li>NodeMCU esp8266</li>
+					<li>LCD screen</li>
+					<li></li>						
+					<li>Analytical skills</li>
+				</ul><!--end skill-list-->
+			</div><!-- end skills-->
+			<div class="main-text">
+				<h3>A complete report </h3>
+				<p>
+					<a href="https://bit.ly/ECE816ProjectReport">https://bit.ly/ECE816ProjectReport</a>
+
+				</p>
+				<p>
+					Github Repository
+					<a href="https://github.com/JayantBenjamin/decentralised-vue">https://github.com/JayantBenjamin/decentralised-vue</a> 
+				</p>
+			</div><!-- end main-text-->
+		</div><!--end container-->
+	</body>
 </html>
